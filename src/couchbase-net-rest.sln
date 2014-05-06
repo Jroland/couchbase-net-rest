@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "couchbase-net-rest", "couchbase-net-rest\couchbase-net-rest.csproj", "{FE75026F-ACA9-41D1-8957-B3AB07790638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "..\TestHarness\TestHarness.csproj", "{6246C94D-0E39-427B-8AAF-5B4D8152AC7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{90B09655-9608-44CA-BDB9-C796EF0B6EDF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EDD4366-7191-4991-BC8E-580DF9224022}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE75026F-ACA9-41D1-8957-B3AB07790638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE75026F-ACA9-41D1-8957-B3AB07790638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE75026F-ACA9-41D1-8957-B3AB07790638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE75026F-ACA9-41D1-8957-B3AB07790638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6246C94D-0E39-427B-8AAF-5B4D8152AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6246C94D-0E39-427B-8AAF-5B4D8152AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6246C94D-0E39-427B-8AAF-5B4D8152AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6246C94D-0E39-427B-8AAF-5B4D8152AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
